@@ -22,7 +22,7 @@
           "title": "Django for Beginners",
           "author": "John Doe",
           "genre": "Programming",
-          "published_date": "2021-05-15",
+          "publication_date": "2021-05-15",
           "availability": true,
           "edition": "1st",
           "summary": "An introductory guide to Django."
@@ -41,7 +41,7 @@
 - **title** (string): The title of the book. **Required**
 - **author** (string): The author of the book. **Required**
 - **genre** (string): Genre or category of the book. **Required**
-- **published_date** (string, date format YYYY-MM-DD): Publication date of the book. **Required**
+- **publication_date** (string, date format YYYY-MM-DD): Publication date of the book. **Required**
 - **availability** (boolean): Availability status of the book (default is true). **Optional**
 - **edition** (string): Edition of the book. **Optional**
 - **summary** (string): A brief summary of the book. **Optional**
@@ -52,7 +52,7 @@
   "title": "Learning Django",
   "author": "Jane Smith",
   "genre": "Educational",
-  "published_date": "2022-03-10",
+  "publication_date": "2021-05-15",
   "availability": true,
   "edition": "2nd",
   "summary": "A book for mastering Django."
@@ -78,7 +78,7 @@
       "title": "Django for Beginners",
       "author": "John Doe",
       "genre": "Programming",
-      "published_date": "2021-05-15",
+      "publication_date": "2021-05-15",
       "availability": true,
       "edition": "1st",
       "summary": "An introductory guide to Django."
